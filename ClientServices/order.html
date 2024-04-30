@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Supermarket</title>
+    <link rel="stylesheet" href="main2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!--<meta http-equiv="refresh" content="">-->
+</head>
+<body>
+    <header class="header">
+        <a href="/Home/home.html"><img src="Images/logo.png" width="100" height="100"></a>
+
+        <nav class="navbar">            
+            <a href="../home.html">Home</a>
+            <a href="../Products/Vegetable.html">Vagetables</a>
+            <a href="../Products/Milk.html">Diary</a>
+            <a href="../Products/Skincare.html">Skin-care</a>
+            <a href="../ClientServices/order.html">Orders</a>
+            <a href="../ClientServices/register.html">Register</a>
+            <a href="../ClientServices/about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <section class="order-intro">
+                <h1>Orders</h1>
+                <p>Welcome to Grocies Supermarket's easy-to-use order page! 
+                    Browse our wide range of products with simple categories or use our 
+                    search bar to find what you need in no time. Just click to add items to 
+                    your cart, review your selections, and proceed to checkout for a hassle-free 
+                    experience. With secure payment options and flexible shipping, ordering groceries 
+                    online has never been simpler. Try it now and see for yourself!
+                </p>
+            </section>
+            <section>
+                <form class="form2">
+                    <fieldset>
+                        <fieldset>
+                            <legend>Products Selection</legend>
+                            Catagory:<select name="categories" required>
+                                <option>Vagetables</option>
+                                <option>Diary Products</option>
+                                <option>Skin care Products</option>
+                            </select><br><br>
+                            Products:<textarea name="products" rows="15" cols="50">Enter your product's name and the the amount in grams or pieces</textarea>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Details and Payment method</legend>
+                            <table>
+                                <tr>
+                                    <td>Shopper Name:</td>
+                                    <td><input type="text" maxlength="30" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Address:</td>
+                                    <td><textarea rows="5" cols="25" required>Type your address</textarea><br><br></td>
+                                </tr>
+                                <tr>
+                                    <td>Mobile:</td>
+                                    <td><input type="text" required maxlength="10"></td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><input type="email"><br><br></td>
+                                </tr>
+                                <tr>
+                                    <td>Payment Method:</td>
+                                    <td>Visa<input type="radio"> Credit<input type="radio"> Debit<input type="radio"></td>
+                                </tr>
+                                <tr>
+                                    <td>Card Number:</td>
+                                    <td><input type="text" maxlength="16" required placeholder="xxxx xxxx xxxx xxxx"></td>
+                                </tr>
+                                <tr>
+                                    <td>Expire Date:</td>
+                                    <td><input type="date" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Security Code:</td>
+                                    <td><input type="text" required> </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                        <input type="submit" value="Confirm the order">
+                        <input type="reset" value="Refill">
+                        </fieldset>
+                    </fieldset>
+                </form>
+            
+            </section>
+        </div>
+    </main>
+    
+
+
+</body>
+</html>

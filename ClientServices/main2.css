@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin-left: 5px;
+}
+.header{
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(6, 48, 85);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.navbar a {
+    margin-left: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(250, 245, 245);
+    font-weight: 400;
+    margin-left: 25px;
+}   
+.navbar a:hover{
+    color: rgb(13, 228, 228); 
+    text-shadow: 23px 7px 40px;
+    text-decoration: underline;
+}
+/*About us section styling*/
+.about-sec{
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 9px;
+    border-bottom-right-radius: 34px;
+}
+/*Branch sec styling*/
+.branch-sec{
+    background-color: rgb(95, 136, 232);
+    margin: 10px;
+    padding: 19px;
+    border-bottom-right-radius: 34px;
+    
+}
+.branch-sec p{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+#para1::first-letter{
+    font-size: 150%;
+    font-weight: bold;
+}
+/*Table stylings*/
+#table{
+    border-color: chartreuse;
+    border-radius: 5px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+/*Table row color(not the bg color)*/
+#table tr{
+    background-color: wheat;
+}
+.reg-intro{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+/*Styling the registration form*/
+#form1{
+    width: 800px;
+    background-color: cadetblue;
+    font-size: 20px;
+    margin: 0 auto;
+}
+#form1 input[type="submit"]{
+    cursor: pointer;
+}
+#form1 input[type="submit"]:hover{
+    color: white;
+    background-color: blue;
+}
+#form1 input,textarea{
+    background-color: rgba(180, 240, 68, 0.692);
+    margin: 4px;
+    border: 2px solid rgb(100, 26, 26);
+}
+.reg-detail{
+    background-color: rgb(68, 15, 130);
+    margin: 10px;
+    padding: 9px;
+    border-radius: 5px;
+    color: white;
+}
+/*Styling the order form*/
+.form2{
+    width: 800px;
+    background-color: rgb(27, 124, 154);
+    font-size: 20px;
+    margin: 0 auto;
+}
+.form2 input,textarea{
+    background-color: rgb(234, 192, 85);
+    margin: 4px;
+    border: 2px solid brown;
+}
+.form2 input[type="submit"]{
+    cursor: pointer;
+}
+.form2 input[type="submit"]:hover{
+    color: white;
+    background-color: blue;
+}
+.form2 fieldset{
+    border: solid 2px black;
+}
+.form2 legend{
+    color: white;
+    font-size: larger;
+    font-style: italic;
+}
+.order-intro{
+    background-color: rgba(27, 24, 105, 0.747);
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    font-size: large;
+}
