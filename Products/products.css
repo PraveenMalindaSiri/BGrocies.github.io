@@ -88,7 +88,7 @@ body{
 }
 /*Diary items styling*/
 .container1 section{
-    border: 2px solid rgb(22, 23, 126);
+    border: 1px solid rgb(22, 23, 126);
     border-radius: 5px;
     padding: 10px;
     width: 170px;
@@ -105,6 +105,9 @@ body{
 }
 .container1 section a:hover{
     color: blue;
+}
+#milk-sec:hover{
+    border: 2px solid black;
 }
 /*Skin sec styles*/
 .skin-intro{
@@ -166,6 +169,9 @@ body{
     border-radius: 5px;
     padding: 10px;
     width: 170px;
+}
+.container2 section:hover{
+    border: 2px solid black;
 }
 .container2 section a{
     display: flex;
