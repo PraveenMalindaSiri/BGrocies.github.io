@@ -61,7 +61,7 @@ body{
 }
 /*Table row color(not the bg color)*/
 #table tr{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
 }
 .reg-intro{
     background-color: antiquewhite;
