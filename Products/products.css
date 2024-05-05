@@ -92,6 +92,8 @@ body{
     border-radius: 5px;
     padding: 10px;
     width: 170px;
+    box-shadow: 2px 3px black;
+    transition: all 1s;
 }
 /*Order link styles*/
 .container1 section a{
@@ -102,12 +104,13 @@ body{
     justify-content: center;
     border-radius: 10px;
     color: white;
+    float: bottom;
 }
 .container1 section a:hover{
     color: blue;
 }
 #milk-sec:hover{
-    border: 2px solid black;
+    box-shadow: 4px 3px red;
 }
 /*Skin sec styles*/
 .skin-intro{
@@ -169,9 +172,11 @@ body{
     border-radius: 5px;
     padding: 10px;
     width: 170px;
+    box-shadow: 2px 3px rgb(14, 146, 102);
+    transition: all 1s;
 }
 .container2 section:hover{
-    border: 2px solid black;
+    box-shadow: 2px 3px black;
 }
 .container2 section a{
     display: flex;
