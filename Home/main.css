@@ -117,3 +117,33 @@ body{
 .section_div img{
     border-radius: 23px;
 }
+/*Footer stylings*/
+footer{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    padding: 100px 0 20px;
+    background: linear-gradient(to right, #00093c, #2b0b00);
+    width: 100%;
+    border-top-left-radius: 100px;
+}
+.footercontainer{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer h3{
+    text-decoration: underline;
+    margin-bottom: 23px;
+}
+.followus img{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
