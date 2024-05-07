@@ -28,6 +28,25 @@ body{
     text-shadow: 23px 7px 40px;
     text-decoration: underline;
 }
+/*Navigation bar phone*/
+@media screen and (max-width:500px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 5px;
+    }
+    .navbar a{
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 30px;
+        border: 1px solid white;
+    }
+    .header img{
+        width: 200px;
+        height: 200px;
+    }
+}
 /*About us section styling*/
 .about-sec{
     background-color: darkgrey;
@@ -110,7 +129,6 @@ body{
 /*Styling the order form*/
 .form2{
     width: 600px;
-    background-color: rgb(27, 124, 154);
     font-size: 20px;
     margin: 0 auto;
 }
@@ -130,7 +148,6 @@ body{
     border: solid 2px black;
 }
 .form2 legend{
-    color: white;
     font-size: larger;
     font-style: italic;
 }
@@ -150,7 +167,6 @@ body{
         width: 300px;
         font-size: 15px;
         margin-left: 0px;
-        background-color: none;
     }
     .form2 input{
         font-size: 10px;

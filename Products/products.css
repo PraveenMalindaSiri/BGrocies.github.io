@@ -28,6 +28,25 @@ body{
     text-shadow: 23px 7px 40px;
     text-decoration: underline;
 }
+/*Navigation bar phone*/
+@media screen and (max-width:500px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding: 5px;
+    }
+    .navbar a{
+        font-size: 20px;
+        padding: 5px;
+        padding-left: 30px;
+        border: 1px solid white;
+    }
+    .header img{
+        width: 200px;
+        height: 200px;
+    }
+}
 /*Search bar styling*/
 .search-bar{
     padding: 5%;
