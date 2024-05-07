@@ -122,10 +122,11 @@ footer{
     color: white;
     font-size: large;
     font-weight: 400;
-    padding: 100px 0 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-right: 5px;
     background: linear-gradient(to right, #00093c, #2b0b00);
     width: 100%;
-    border-top-left-radius: 100px;
 }
 .footercontainer{
     width: 85%;
@@ -138,6 +139,9 @@ footer{
 footer a{
     color: white;
     text-decoration: none;
+}
+footer a:hover{
+    color: aqua;
 }
 footer h3{
     text-decoration: underline;
