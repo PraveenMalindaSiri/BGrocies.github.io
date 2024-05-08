@@ -136,6 +136,17 @@ body{
 .section_div img{
     border-radius: 23px;
 }
+.thsec-div-mobile{
+    display: none;
+}
+@media screen and (max-width:500px) {
+    .thsec-div{
+        display: none;
+    }
+    .thsec-div-mobile{
+        display: block;
+    }
+}
 /*Footer stylings*/
 footer{
     color: white;

@@ -70,6 +70,37 @@ body{
     font-size: 150%;
     font-weight: bold;
 }
+#table-loc{
+    width: 100%;
+}
+@media screen and (max-width:500px) {
+    #table-loc img{
+        width: 200px;
+        height: 200px;
+    }
+    #table-loc iframe{
+        width: 200px;
+        height: 200px;
+    }
+    #table-loc{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width:500px) {
+    #table-loc img{
+        width: 150px;
+        height: 150px;
+    }
+    #table-loc iframe{
+        width: 150px;
+        height: 150px;
+    }
+    #table-loc{
+        padding: 0;
+        margin: 0;
+    }
+}
 /*Table stylings*/
 #table{
     border-color: chartreuse;
