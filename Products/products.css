@@ -154,23 +154,34 @@ body{
     border-color: brown;
     border-radius: 10px;
     font-size: large;
-    width: 100%;
+    width: 1000px;
     text-align:center;
     background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
 }
 /*skin table link styles*/
 #skin-table tr a{
     display: flex;
     background-color: rgb(202, 28, 28);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     justify-content: center;
     border-radius: 20px;
     color: rgb(0, 0, 0);
+    padding: 5px;
+    color: white;
+    margin-bottom: 5px;
 }
 #skin-table tr a:hover{
     color: white;
     background-color: blue;
+}
+/*skin care table mobile*/
+@media screen and (max-width:500px) {
+    #skin-table{
+        width: 100%;
+    }
 }
 /*Vegetable sec styling*/
 .vage-intro{
