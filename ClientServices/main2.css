@@ -106,7 +106,20 @@
     padding: 9px;
     border-radius: 5px;
 }
-
+/*About us page intro table*/
+#about-intro-table{
+    width: 100%;
+}
+#about-intro-table img{
+    border-radius: 10px;
+}
+/*About us page intro table mobile view*/
+@media screen and (max-width:500px) {
+    #about-intro-table img{
+        width: 170px;
+        height: 160px;
+    }
+}
 /*Styling the registration form*/
 #form1{
     width: 600px;
