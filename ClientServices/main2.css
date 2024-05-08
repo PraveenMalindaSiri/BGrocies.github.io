@@ -1,4 +1,4 @@
-body{
+/*body{
     font-family: Arial, Helvetica, sans-serif;
 }
 *{
@@ -27,9 +27,9 @@ body{
     color: rgb(13, 228, 228); 
     text-shadow: 23px 7px 40px;
     text-decoration: underline;
-}
+}*/
 /*Navigation bar phone*/
-@media screen and (max-width:500px) {
+/*@media screen and (max-width:500px) {
     .navbar{
         display: flex;
         flex-direction: column;
@@ -46,7 +46,7 @@ body{
         width: 200px;
         height: 200px;
     }
-}
+}*/
 /*About us section styling*/
 .about-sec{
     background-color: darkgrey;
@@ -73,20 +73,7 @@ body{
 #table-loc{
     width: 100%;
 }
-@media screen and (max-width:500px) {
-    #table-loc img{
-        width: 200px;
-        height: 200px;
-    }
-    #table-loc iframe{
-        width: 200px;
-        height: 200px;
-    }
-    #table-loc{
-        padding: 0;
-        margin: 0;
-    }
-}
+/*location table mobile*/
 @media screen and (max-width:500px) {
     #table-loc img{
         width: 150px;

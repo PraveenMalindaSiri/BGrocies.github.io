@@ -1,4 +1,4 @@
-body{
+/*body{
     font-family: Arial, Helvetica, sans-serif;
 }
 *{
@@ -27,9 +27,9 @@ body{
     color: rgb(13, 228, 228); 
     text-shadow: 23px 7px 40px;
     text-decoration: underline;
-}
+}*/
 /*Navigation bar phone*/
-@media screen and (max-width:500px) {
+/*@media screen and (max-width:500px) {
     .navbar{
         display: flex;
         flex-direction: column;
@@ -46,9 +46,9 @@ body{
         width: 200px;
         height: 200px;
     }
-}
+}*/
 /*Search bar styling*/
-.search-bar{
+/*.search-bar{
     padding: 5%;
     max-height: 150vh;
     display: flex;
@@ -83,7 +83,7 @@ body{
     border-radius: 50%;
     background: transparent;
     cursor: pointer;
-}
+}*/
 /*Diary section styling*/
 .diary-intro{
     padding: 5px;

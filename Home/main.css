@@ -92,13 +92,13 @@ body{
 /*home intro styling*/
 .homeintrosec{
     font-size: 23px;
-    background-image: url('Images/background2.jpg');
+    background-image: url('Images/background2.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 23px;
     padding-bottom: 23px;
-    text-shadow: 1px 1px 1px rgb(226, 217, 201);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
     border-bottom: 3px solid black;
     border-radius: 5px;
     margin-bottom: 13px;   
