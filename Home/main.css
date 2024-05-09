@@ -30,6 +30,9 @@ body{
 }
 /*Navigation bar phone*/
 @media screen and (max-width:500px) {
+    .header{
+        border-radius: 5px;
+    }
     .navbar{
         display: flex;
         flex-direction: column;
@@ -37,14 +40,14 @@ body{
         padding: 5px;
     }
     .navbar a{
-        font-size: 20px;
+        font-size: 18px;
         padding: 5px;
-        padding-left: 30px;
+        padding-left: 10px;
         border: 1px solid white;
     }
     .header img{
-        width: 200px;
-        height: 200px;
+        width: 190px;
+        height: 190px;
     }
 }
 /*section styles*/
