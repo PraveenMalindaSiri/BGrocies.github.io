@@ -113,11 +113,21 @@
 #about-intro-table img{
     border-radius: 10px;
 }
+#about-intro-table-mobile{
+    display: none;
+}
 /*About us page intro table mobile view*/
 @media screen and (max-width:500px) {
-    #about-intro-table img{
-        width: 170px;
-        height: 160px;
+    #about-intro-table{
+        display: none;
+    }
+    #about-intro-table-mobile{
+        display: block;
+    }
+    #about-intro-table-mobile img{
+        width: 250px;
+        height: 200px;
+        border-radius: 10px;
     }
 }
 /*Styling the registration form*/
