@@ -134,7 +134,12 @@
 /*Diary page mobile*/
 @media screen and (max-width:500px) {
     .container1 section{
-        width: 130px;
+        width: 120px;
+        height: auto;
+    }
+    .container1{
+        gap: 5px;
+        padding: 10px;
     }
 }
 /*Skin sec styles*/
