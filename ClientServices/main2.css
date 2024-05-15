@@ -161,9 +161,11 @@
     color: white;
     background-color: blue;
 }
-#form1 input,textarea{
+#form1 input, #form1 textarea{
     background-color: rgba(180, 240, 68, 0.692);
     margin: 4px;
+    padding: 5  px;
+    border-radius: 20px;
     border: 2px solid rgb(100, 26, 26);
 }
 .reg-detail{
@@ -173,15 +175,33 @@
     border-radius: 5px;
     color: white;
 }
+#form1-mobile{
+    display: none;
+}
 /*Reg. page mobile*/
 @media screen and (max-width:500px) {
     #form1{
-        width: 100%;
-        font-size: 15px;
-        margin-left: 0px;
+        display: none;
     }
-    #form1 input{
-        font-size: 10px;
+    #form1-mobile{
+        display: block;
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    #form1-mobile input, #form1-mobile textarea{
+        margin: 4px;
+        border: 2px solid brown;
+        font-size: large;
+        padding: 10px;
+        border-radius: 50px;
+        width:300px;
+    }
+    #form1-mobile input[type="radio"]{
+        width: auto;
+    }
+    #form1-mobile input[type="submit"]:hover{
+        background-color: blue;
     }
 }
 /*Styling the order form*/
@@ -190,9 +210,11 @@
     font-size: 20px;
     margin: 0 auto;
 }
-.form2 input,textarea{
+.form2 input, .form2 textarea{
     background-color: rgb(234, 192, 85);
     margin: 4px;
+    padding: 4px;
+    border-radius: 20px;
     border: 2px solid brown;
 }
 .form2 input[type="submit"]{
@@ -219,15 +241,33 @@
     font-size: large;
     color: white;
 }
+.form2-mobile{
+    display: none;
+}
 /*Order page mobile*/
 @media screen and (max-width:500px) {
     .form2{
-        width: 300px;
-        font-size: 15px;
-        margin-left: 0px;
+        display: none;
     }
-    .form2 input{
-        font-size: 10px;
+    .form2-mobile{
+        display: block;
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .form2-mobile input, .form2-mobile textarea{
+        margin: 4px;
+        border: 2px solid brown;
+        font-size: large;
+        padding: 10px;
+        border-radius: 30px;
+        width:300px;
+    }
+    .form2-mobile input[type="radio"]{
+        width: auto;
+    }
+    .form2-mobile input[type="submit"]:hover{
+        background-color: rgb(255, 176, 7);
     }
 }
 /*Footer stylings*/
