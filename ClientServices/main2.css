@@ -188,6 +188,7 @@
         font-size: 20px;
         border: 1px solid black;
         padding: 10px;
+        background-color: #f0f0f0;
     }
     #form1-mobile input, #form1-mobile textarea{
         margin: 4px;
@@ -254,6 +255,7 @@
         font-size: 20px;
         border: 1px solid black;
         padding: 10px;
+        background-color: #f0f0f0;
     }
     .form2-mobile input, .form2-mobile textarea{
         margin: 4px;
