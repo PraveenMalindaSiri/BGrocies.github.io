@@ -50,14 +50,16 @@
 /*About us section styling*/
 .about-sec{
     background-color: darkgrey;
-    margin: 10px;
+    margin: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 9px;
     border-bottom-right-radius: 34px;
 }
 /*Branch sec styling*/
 .branch-sec{
     background-color: rgb(95, 136, 232);
-    margin: 10px;
+    margin: 5   px;
     padding: 19px;
     border-bottom-right-radius: 34px;
     
@@ -119,7 +121,9 @@
 }
 .reg-intro{
     background-color: antiquewhite;
-    margin: 10px;
+    margin: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     padding: 9px;
     border-radius: 5px;
 }
