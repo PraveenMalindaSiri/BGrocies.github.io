@@ -154,17 +154,17 @@
     font-size: 20px;
     margin: 0 auto;
 }
-#form1 input[type="submit"]{
+#form1 input[type="submit"], #form1 input[type="reset"]{
     cursor: pointer;
+    padding: 10px;
 }
 #form1 input[type="submit"]:hover{
     color: white;
-    background-color: blue;
 }
 #form1 input, #form1 textarea{
     background-color: rgba(180, 240, 68, 0.692);
     margin: 4px;
-    padding: 5  px;
+    padding: 10px;
     border-radius: 20px;
     border: 2px solid rgb(100, 26, 26);
 }
@@ -214,16 +214,16 @@
 .form2 input, .form2 textarea{
     background-color: rgb(234, 192, 85);
     margin: 4px;
-    padding: 4px;
+    padding: 14px;
     border-radius: 20px;
     border: 2px solid brown;
 }
-.form2 input[type="submit"]{
+.form2 input[type="submit"], .form2 input[type="reset"]{
     cursor: pointer;
+    padding: 10px;
 }
 .form2 input[type="submit"]:hover{
     color: white;
-    background-color: blue;
 }
 .form2 fieldset{
     border: solid 2px black;

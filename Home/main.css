@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 *{
-    margin-left: 5px;
+    margin-left: 3px;
 }
 .header{
     top: 0%;
@@ -95,7 +95,7 @@ body{
 /*home intro styling*/
 .homeintrosec{
     font-size: 23px;
-    background-image: url('Images/background2.jpg') ;
+    background-image: url('Images/bg1.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
