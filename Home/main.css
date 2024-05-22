@@ -30,6 +30,7 @@ body{
 }
 #icon-img{
     background-color: white;
+    margin-top: 5px;
 }
 /*Navigation bar phone*/
 @media screen and (max-width:500px) {
