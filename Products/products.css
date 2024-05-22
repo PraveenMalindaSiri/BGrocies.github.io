@@ -143,18 +143,18 @@
         height: auto;
     }
     .container1{
-        gap: 5px;
+        gap: 10px;
         padding: 10px;
     }
 }
 @media screen and (max-width:500px) {
     .container1 section{
-        width: 150px;
+        width: 155px;
         height: auto;
     }
     .container1{
         gap: 5px;
-        padding: 10px;
+        padding: 5px;
     }
 }
 /*Skin sec styles*/
