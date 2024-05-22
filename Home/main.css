@@ -28,6 +28,9 @@ body{
     text-shadow: 23px 7px 40px;
     text-decoration: underline;
 }
+#icon-img{
+    background-color: white;
+}
 /*Navigation bar phone*/
 @media screen and (max-width:500px) {
     .header{

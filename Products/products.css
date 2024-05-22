@@ -15,6 +15,9 @@
     justify-content: space-around;
     border-radius: 20px;
 }
+#icon-img{
+    background-color: white;
+}
 .navbar a {
     margin-left: 12px;
     text-decoration: none;
